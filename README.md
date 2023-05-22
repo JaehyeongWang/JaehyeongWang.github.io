@@ -1,15 +1,35 @@
 # 1. Introduction
-Hi I'm <u>Jaehyeong</u>, but you can call me <u>Jason</u>.
+Hi I'm Jaehyeong, but please call me Jason.
+
 
 # 2. Skills
-__Programming Language__
-* C C++ Java JavaScript TypeScript Python Kotlin R\
+## Programming Language
+1. C
+2. C++
+3. Java
+4. JavaScript
+5. TypeScript
+6. Python
+7. Kotlin
+8. R 
 ---
-__Frontend and Backend__
-* HTML CSS JavaScript React Node.js\
+## Frontend and Backend
+1. HTML
+2. CSS
+3. JavaScript
+4. React
+5. Node.js
 ---
-__Database, Version, Deployment and SaaS__
-* SQL(MySQL) Git Github Docker AWS Azure Notion Slack Jandi
+## Database, Version, Deployment and Saas
+1. SQL(MySQL)
+2. Git
+3. Github
+4. Docker
+5. AWS
+6. Azure
+7. Notion
+8. Slack
+9. Jandi
 
 # 3. Education
 ## SungKyunKwan Univ
@@ -44,6 +64,9 @@ __Computer Science__
 * Robus System Design with Big Data Analytics and Artificial Intelligence
 * Machine Learning and Deep Learning
 * Seminar in Computer Engineering
+
+
+
 
 # 4. Achievements and Certifications
 
