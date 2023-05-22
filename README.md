@@ -1,5 +1,5 @@
 # 1. Introduction
-Hi I'm Jaehyeong, but please call me Jason.
+Hi I'm <u>Jaehyeong</u>, but please call me <u>Jason</u>.
 
 
 # 2. Skills
@@ -12,24 +12,28 @@ Hi I'm Jaehyeong, but please call me Jason.
 6. Python
 7. Kotlin
 8. R 
+
 ---
+
 ## Frontend and Backend
-1. HTML
-2. CSS
-3. JavaScript
-4. React
-5. Node.js
+9. HTML
+10. CSS
+11. JavaScript
+12. React
+13. Node.js
+
 ---
+
 ## Database, Version, Deployment and Saas
-1. SQL(MySQL)
-2. Git
-3. Github
-4. Docker
-5. AWS
-6. Azure
-7. Notion
-8. Slack
-9. Jandi
+14. SQL(MySQL)
+15. Git
+16. Github
+17. Docker
+18. AWS
+19. Azure
+20. Notion
+21. Slack
+22. Jandi
 
 # 3. Education
 ## SungKyunKwan Univ
