@@ -1,12 +1,12 @@
 # 1. Introduction
-Hi I'm <u>Jaehyeong<u>, but you can call me <u>Jason<u>.
+Hi I'm <u>Jaehyeong</u>, but you can call me <u>Jason</u>.
 
 # 2. Skills
 __Programming Language__
-* C C++ Java JavaScript TypeScript Python Kotlin R 
+* C C++ Java JavaScript TypeScript Python Kotlin R\
 ---
 __Frontend and Backend__
-* HTML CSS JavaScript React Node.js
+* HTML CSS JavaScript React Node.js\
 ---
 __Database, Version, Deployment and SaaS__
 * SQL(MySQL) Git Github Docker AWS Azure Notion Slack Jandi
