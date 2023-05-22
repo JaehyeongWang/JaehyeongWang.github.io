@@ -1,6 +1,5 @@
 # 1. Introduction
-Hi I'm Jaehyeong, but you can call me Jason.
-
+Hi I'm <u>Jaehyeong<u>, but you can call me <u>Jason<u>.
 
 # 2. Skills
 __Programming Language__
