@@ -16,24 +16,24 @@ Hi I'm <u>Jaehyeong</u>, but please call me <u>Jason</u>.
 ---
 
 ## Frontend and Backend
-9. HTML
-10. CSS
-11. JavaScript
-12. React
-13. Node.js
+1. HTML
+2. CSS
+3. JavaScript
+4. React
+5. Node.js
 
 ---
 
 ## Database, Version, Deployment and Saas
-14. SQL(MySQL)
-15. Git
-16. Github
-17. Docker
-18. AWS
-19. Azure
-20. Notion
-21. Slack
-22. Jandi
+1. SQL(MySQL)
+2. Git
+3. Github
+4. Docker
+5. AWS
+6. Azure
+7. Notion
+8. Slack
+9. Jandi
 
 # 3. Education
 ## SungKyunKwan Univ
