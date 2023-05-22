@@ -5,3 +5,5 @@ def fib(n: int) -> int:
 
 def test_fibonacci():
     assert fib(int(os.environ["FIB_INPUT"])) == 55
+
+test_fibonacci()
