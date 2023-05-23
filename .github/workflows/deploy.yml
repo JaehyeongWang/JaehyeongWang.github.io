@@ -1,61 +1,64 @@
-name: Deploy to GitHub Pages
+name: Deploy to GitHub Pages	#Define the name of the workflow
 
-on:
-  push:
-    branches: [main]
+on:				#Define when the workflow will be executed
+  push:				#Execute workflow when push event occurs
+    branches: [main]		#to “main” branch
+  workflow_dispatch:		#When a user manually runs a workflow on GitHub's website
 
-  workflow_dispatch:
+permissions:			#Specify the permissions required by the workflow
+  contents: read			#Allow reading the contents of the repository
+  pages: write			#Allow writing to GitHub Pages
+  id-token: write			#Allow generating GitHub access tokens
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+concurrency:			#Limit the number of concurrently running workflows
+  group: ${{ github.workflow }}-${{ github.ref }} #Define groups to limit concurrent execution
+#The group name consists of the current workflow name and the referenced branch
   cancel-in-progress: true
+#If a new workflow execution run in the same group, the current workflow execution is canceled
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+jobs:				#Define the tasks that are executed in the workflow
+  build:			#Build the project and converts the source code into an executable form
+    runs-on: ubuntu-latest	#Define the destination machine
+    steps:			#Define the sequence of tasks
+      - name: Checkout repository #Make the GitHub Actions runner fetch code from the repository
+        uses: actions/checkout@v3 #Downloads the code from the repository to the runner
 
-      - name: Set up Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16.x
-          cache: 'npm'
+      - name: Set up Node	#Install and set up Node.js
+        uses: actions/setup-node@v3	#Make the GitHub Actions runner install Node.js
+        with:				#To set up
+          node-version: 16.x		#The version of Node.js is 16.x
+          cache: 'npm'			#Enable cache for npm packages
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
+      - name: Setup Pages		#Set up GitHub Pages
+        uses: actions/configure-pages@v3	#Make the GitHub Actions runner set up GitHub Pages
 
-      - name: Restore cache
-        uses: actions/cache@v3
-        with:
-          path: |
+      - name: Restore cache	#Restore previously saved cache
+        uses: actions/cache@v3	#Make the GitHub Actions runner restore previously saved cache
+        with:			#To set up
+          path: |			#Path of directory to restore cache
             **/node_modules
           key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+#The cache's key consists of the hash value from the OS and the package-lock.json file.
+#The package-lock.json file provides accurate information about the project's npm dependencies, so a new cache is created only when the hash value of that file changes, significantly reducing dependency installation time.
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Install dependencies	#Install the project's npm dependencies
+        run: npm ci #The command installs the dependencies versions accurately recorded in the package-lock.json file
 
-      - name: Build with vite
-        run: npm run build
+      - name: Build with vite		#Build the project
+        run: npm run build		#Build the project using Vite according to vite.config.js
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: ./dist
+      - name: Upload artifact	#Upload the built file to GitHub Actions artifact
+        uses: actions/upload-pages-artifact@v1 #Make the GitHub Actions runner Upload the contents to artifact
+        with:		#To set up
+          path: ./dist	#Target directory to upload to artifact
 
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1.2.4
+  deploy:			#Deploy the built project to GitHub Pages
+    environment:			#Set up the environment in which tasks run
+      name: github-pages 	#Define name environment
+      url: ${{ steps.deployment.outputs.page_url }} #Set the URL of the deployed page by defining the url environment variable
+    runs-on: ubuntu-latest	#Define the destination machine
+    needs: build	#Set deploy task to start only after “build” task completes successfully
+    steps:	#Define the steps that run in a job
+      - name: Deploy to GitHub Pages	#Define the name of the step
+        id: deployment	#To assign a role that allows the output of this step to be referenced
+        uses: actions/deploy-pages@v1.2.4 #Make the GitHub Actions runner deploy the project to GitHub Pages
