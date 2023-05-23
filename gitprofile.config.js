@@ -48,6 +48,7 @@ const config = {
     'Git',
     'Github',
     'Docker',
+    'Bash',
     'AWS',
     'Azure',
     'Notion',

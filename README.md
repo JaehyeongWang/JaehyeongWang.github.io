@@ -35,11 +35,12 @@ Thank you for visiting my personal wabsite!
 2. Git
 3. Github
 4. Docker
-5. AWS
-6. Azure
-7. Notion
-8. Slack
-9. Jandi
+5. Bash
+6. AWS
+7. Azure
+8. Notion
+9. Slack
+10. Jandi
 
 # 3. Education
 ## SungKyunKwan University
