@@ -4,7 +4,7 @@ const config = {
   github: {
     username: 'JaehyeongWang', // Your GitHub org/user name. (Required)
     sortBy: 'updated', // stars | updated
-    limit: 12, // How many projects to display.
+    limit: 20, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -200,28 +200,28 @@ const config = {
       description:
         'Research Support for HEALTH ECON LAB research during Economics Individual Research 1 course',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: '',
+      link: 'https://skku.edu',
     },
     {
       title: 'Analysis of the impact of economic sentiment contraction due to country lockdown policies during the COVID-19 period on the unequal recovery of stock indices',
       description:
         'Economics Society "Dasan Finance"',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: '',
+      link: 'https://lib.skku.edu',
     },
     {
       title: 'Seminar comparing traditional time series model ARMA and deep learning model LSTM in predicting financial time series data',
       description:
         'Economics Society "Dasan Finance"',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: '',
+      link: 'https://ecostat.skku.edu',
     },
     {
       title: 'Arbitrage trading strategy using confusion trading from similar stock names',
       description:
         'Financial Engineering Society "Financial Rainmakers"',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: '',
+      link: 'https://cse.skku.edu',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
