@@ -2,15 +2,13 @@ import { skeleton } from '../../helpers/utils';
 import { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
-const ListItem = ({ time, degree, institution }) => (
+const ListItem = ({degree}) => (
   <li className="mb-5 ml-4">
     <div
       className="absolute w-2 h-2 bg-base-300 rounded-full border border-base-300 mt-1.5"
       style={{ left: '-4.5px' }}
     ></div>
-    <div className="my-0.5 text-xs">{time}</div>
     <h3 className="font-semibold">{degree}</h3>
-    <div className="mb-4 font-normal">{institution}</div>
   </li>
 );
 
@@ -21,16 +19,11 @@ const Education = ({ loading, education }) => {
       array.push(
         <ListItem
           key={index}
-          time={skeleton({
-            width: 'w-5/12',
-            height: 'h-4',
-          })}
           degree={skeleton({
             width: 'w-6/12',
             height: 'h-4',
             className: 'my-1.5',
           })}
-          institution={skeleton({ width: 'w-6/12', height: 'h-3' })}
         />
       );
     }
@@ -49,7 +42,7 @@ const Education = ({ loading, education }) => {
                   skeleton({ width: 'w-32', height: 'h-8' })
                 ) : (
                   <span className="text-base-content opacity-70">
-                    Education
+                    Education: SungKyunKwan Univ. Bachelor of Economics
                   </span>
                 )}
               </h5>
@@ -63,9 +56,7 @@ const Education = ({ loading, education }) => {
                     {education.map((item, index) => (
                       <ListItem
                         key={index}
-                        time={`${item.from} - ${item.to}`}
                         degree={item.degree}
-                        institution={item.institution}
                       />
                     ))}
                   </Fragment>
