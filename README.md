@@ -1,5 +1,8 @@
 # 1. Introduction
 Hi I'm <u>Jaehyeong</u>, but please call me <u>Jason</u>.
+I'm going to have two undergraduate degrees, <u>Economis</u> and <u>Software</u>.
+My hobby is "Subscribe to the New Technology Newsletter", "Playing Flute", "Hiking", "Workout" and "Cycling".
+Thank you for visiting my personal wabsite!
 
 
 # 2. Skills
@@ -93,6 +96,7 @@ __Bachelor of Computer Science (scheduled for August 23)__
 > 1st student council, Planning and support for department events, etc.
 * Financial Supervisory Service Financial Education Volunteer Group
 * Kyung Hee University Campus Town
+* Republic of Korea Army Sergeant Reserve
 
 ## Certifications
 * Investment asset manager license
