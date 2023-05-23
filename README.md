@@ -1,7 +1,7 @@
 # 1. Introduction
-Hi I'm <u>Jaehyeong</u>, but please call me <u>Jason</u>.
-I'm going to have two undergraduate degrees, <u>Economis</u> and <u>Software</u>.
-My hobby is "Subscribe to the New Technology Newsletter", "Playing Flute", "Hiking", "Workout" and "Cycling".
+Hi I'm <u>Jaehyeong</u>, but please call me <u>Jason</u>. \
+I'm going to have two undergraduate degrees, <u>Economis</u> and <u>Software</u>. \
+My hobby is "Subscribe to the New Technology Newsletter", "Playing Flute", "Hiking", "Workout" and "Cycling". \
 Thank you for visiting my personal wabsite!
 
 
