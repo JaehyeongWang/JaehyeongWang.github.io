@@ -1,3 +1,6 @@
+> # This repo is forked from arifszn's gitprofile repo. \ You can check the original template on my personal github website by clicking on the box at the very bottom. \ Or you can visit the site just by clicking below link
+>> [Github](https://github.com/arifszn/gitprofile)
+
 # 1. Introduction
 Hi I'm <u>Jaehyeong</u>, but please call me <u>Jason</u>. \
 I'm going to have two undergraduate degrees, <u>Economis</u> and <u>Software</u>. \
