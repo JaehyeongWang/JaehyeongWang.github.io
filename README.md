@@ -22,9 +22,8 @@ Thank you for visiting my personal wabsite!
 ## Frontend and Backend
 1. HTML
 2. CSS
-3. JavaScript
-4. React
-5. Node.js
+3. React
+4. Node.js
 
 ---
 

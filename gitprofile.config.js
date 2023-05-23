@@ -2,50 +2,57 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    username: 'JaehyeongWang', // Your GitHub org/user name. (Required)
+    sortBy: 'updated', // stars | updated
+    limit: 6, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: '',
+    twitter: '',
+    mastodon: '',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'jahyeng0224@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'C',
+    'C++',
+    'Java',
     'JavaScript',
+    'TypeScript',
+    'Python',
+    'Kotlin',
+    'R',
+    'HTML',
+    'CSS',
     'React.js',
     'Node.js',
-    'Nest.js',
     'MySQL',
-    'PostgreSQL',
     'Git',
+    'Github',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'AWS',
+    'Azure',
+    'Notion',
+    'Slack',
+    'Jandi'
   ],
   experiences: [
     {
@@ -63,27 +70,106 @@ const config = {
       companyLink: 'https://example.com',
     },
   ],
-  /* certifications: [
+  certifications: [
     {
       name: 'Lorem ipsum',
       body: 'Lorem ipsum dolor sit amet',
       year: 'March 2022',
       link: 'https://example.com'
     },
-  ], */
+  ],
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'SungKyunKwan Univ. Economics',
+      degree: 'Principles of Economics I',
+      from: '2018',
+      to: '2018',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'SungKyunKwan Univ. Economics',
+      degree: 'Principles of Economics II',
+      from: '2018',
+      to: '2018',
     },
+    {
+      institution: 'SungKyunKwan Univ. Economics',
+      degree: 'Microeconomics',
+      from: '2018',
+      to: '2018',
+    },
+    {
+      institution: 'SungKyunKwan Univ. Economics',
+      degree: 'Macroeconomics',
+      from: '2018',
+      to: '2018',
+    },
+    {
+      institution: 'SungKyunKwan Univ. Economics',
+      degree: 'Mathematics for Economics',
+      from: '2018',
+      to: '2018',
+    },
+    {
+      institution: 'SungKyunKwan Univ. Economics',
+      degree: 'Econometrics',
+      from: '2018',
+      to: '2018',
+    },
+    {
+      institution: 'SungKyunKwan Univ. Economics',
+      degree: 'Statistical Analysis for Economics',
+      from: '2018',
+      to: '2018',
+    },
+    {
+      institution: 'SungKyunKwan Univ. Economics',
+      degree: 'Economic History',
+      from: '2018',
+      to: '2018',
+    },
+    {
+      institution: 'SungKyunKwan Univ. Economics',
+      degree: 'Introduction to Financial Accounting',
+      from: '2020',
+      to: '2020',
+    },
+    {
+      institution: 'SungKyunKwan Univ. Economics',
+      degree: 'Asset Pricing',
+      from: '2021',
+      to: '2021',
+    },
+    {
+      institution: 'SungKyunKwan Univ. Economics',
+      degree: 'Foreign Exchange Market',
+      from: '2021',
+      to: '2021',
+    },
+    {
+      institution: 'SungKyunKwan Univ. Economics',
+      degree: 'Labor Economics',
+      from: '2021',
+      to: '2021',
+    },
+    {
+      institution: 'SungKyunKwan Univ. Economics',
+      degree: 'Game Theory and Application',
+      from: '2021',
+      to: '2021',
+    },
+    {
+      institution: 'SungKyunKwan Univ. Economics',
+      degree: 'Economics Individual Research 1',
+      from: '2021',
+      to: '2021',
+    },
+    {
+      institution: 'SungKyunKwan Univ. Economics',
+      degree: 'Thesis writing in humanities and social sciences using Python',
+      from: '2021',
+      to: '2021',
+    },
+    
   ],
 
   // To hide the `My Projects` section, keep it empty.
