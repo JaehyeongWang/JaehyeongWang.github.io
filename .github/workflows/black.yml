@@ -19,4 +19,4 @@ jobs:
           pip install ruff pytest
       - name: Test with pytest
         run: |
-          pytest test.py
+          python test.py
