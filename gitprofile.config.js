@@ -119,6 +119,41 @@ const config = {
       year: 'June 2022',
       link: ''
     },
+    {
+      name: 'Information Technology Qualification',
+      year: 'August 2019',
+      link: ''
+    },
+    {
+      name: 'Craftsman Cook, Korean Food',
+      year: 'August 2020',
+      link: ''
+    },
+    {
+      name: 'Craftsman Motor Vehicles Maintenance',
+      year: 'December 2019',
+      link: ''
+    },
+    {
+      name: 'Certified Distribution Management Level-II',
+      year: 'July 2019',
+      link: ''
+    },
+    {
+      name: 'Certified Distribution Management Level-II',
+      year: 'July 2019',
+      link: ''
+    },
+    {
+      name: 'OPIc English IM2',
+      year: 'March 2023',
+      link: ''
+    },
+    {
+      name: 'TEPs 377',
+      year: 'February 2023',
+      link: ''
+    },
   ],
   education: [
     {degree: 'Principles of Economics I'},
