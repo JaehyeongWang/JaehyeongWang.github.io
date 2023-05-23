@@ -196,24 +196,38 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Analysis of indemnity medical insurance maintenance behavior from a cost-benefit perspective',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        'Research Support for HEALTH ECON LAB research during Economics Individual Research 1 course',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      link: '',
     },
     {
-      title: 'Project Name',
+      title: 'Analysis of the impact of economic sentiment contraction due to country lockdown policies during the COVID-19 period on the unequal recovery of stock indices',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        'Economics Society "Dasan Finance"',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      link: '',
+    },
+    {
+      title: 'Seminar comparing traditional time series model ARMA and deep learning model LSTM in predicting financial time series data',
+      description:
+        'Economics Society "Dasan Finance"',
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: '',
+    },
+    {
+      title: 'Arbitrage trading strategy using confusion trading from similar stock names',
+      description:
+        'Financial Engineering Society "Financial Rainmakers"',
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: '',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {

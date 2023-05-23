@@ -101,21 +101,6 @@ const ExternalProject = ({ externalProjects, loading, googleAnalytics }) => {
                   <h2 className="font-semibold text-lg tracking-wide text-center opacity-60 mb-2">
                     {item.title}
                   </h2>
-                  {item.imageUrl && (
-                    <div className="avatar opacity-90">
-                      <div className="w-20 h-20 mask mask-squircle">
-                        <LazyImage
-                          src={item.imageUrl}
-                          alt={'thumbnail'}
-                          placeholder={skeleton({
-                            width: 'w-full',
-                            height: 'h-full',
-                            shape: '',
-                          })}
-                        />
-                      </div>
-                    </div>
-                  )}
                   <p className="mt-1 text-base-content text-opacity-60 text-sm">
                     {item.description}
                   </p>
@@ -142,7 +127,7 @@ const ExternalProject = ({ externalProjects, loading, googleAnalytics }) => {
                         skeleton({ width: 'w-40', height: 'h-8' })
                       ) : (
                         <span className="text-base-content opacity-70">
-                          My Projects
+                          Personal Studies and Research Support
                         </span>
                       )}
                     </h5>
