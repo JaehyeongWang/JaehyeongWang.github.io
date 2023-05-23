@@ -74,8 +74,38 @@ __Bachelor of Computer Science (scheduled for August 23)__
 ## Personal Studies and Research Support
 * Analysis of indemnity medical insurance maintenance behavior from a cost-benefit perspective
 > Research Support for HEALTH ECON LAB research during Economics Individual Research 1 course
-
+* Analysis of the impact of economic sentiment contraction due to country lockdown policies during the COVID-19 period on the unequal recovery of stock indices
+> Economics Society "Dasan Finance"
+* Seminar comparing traditional time series model ARMA and deep learning model LSTM in predicting financial time series data
+> Economics Society "Dasan Finance"
+* Arbitrage trading strategy using confusion trading from similar stock names
+> Financial Engineering Society "Financial Rainmakers"
 
 # 4. Achievements and Certifications
+## Achievements
+* "TrashFree", the New Concept Garbage Collection Service
+> Sungkyunkwan University Convergence Foundation Project 1st Prize
+* "ANVY", Search word recommendation service for developers
+> Sungkyunkwan University 2022 AI Idea Service Contest 1st prize in business idea category
+* 6 month intern at Samsung Securities
+> Trust asset, mezzanine contract, and credit facility management support by PBS team
+* Economics Student Council
+> 1st student council, Planning and support for department events, etc.
+* Financial Supervisory Service Financial Education Volunteer Group
+* Kyung Hee University Campus Town
+
+## Certifications
+* Investment asset manager license
+* Computer Specialist in Spreadsheet & Database Level-I
+* Word Processor User
+* SQLd
+* Information Technology Qualification
+* Craftsman Cook, Korean Food
+* Craftsman Motor Vehicles Maintenance
+* Certified Distribution Management Level-II
+* OPIc English IM2
+* TEPs 377
 
 # 5. Contact
+* email address: jahyeng0224@gmail.com
+* GitHub Link: https://github.com/JaehyeongWang/
