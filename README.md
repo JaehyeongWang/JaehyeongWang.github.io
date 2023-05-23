@@ -36,8 +36,8 @@ Hi I'm <u>Jaehyeong</u>, but please call me <u>Jason</u>.
 9. Jandi
 
 # 3. Education
-## SungKyunKwan Univ
-__Economics__
+## SungKyunKwan University
+__Bachelor of Economics (scheduled for August 23)__
 * Principles of Economics I
 * Principles of Economics II
 * Microeconomics
@@ -54,7 +54,9 @@ __Economics__
 * Economics Individual Research 1
 * Thesis writing in humanities and social sciences using Python
 
-__Computer Science__
+---
+
+__Bachelor of Computer Science (scheduled for August 23)__
 * Data Structures
 * Algorithms
 * Logic Circuits
@@ -69,7 +71,9 @@ __Computer Science__
 * Machine Learning and Deep Learning
 * Seminar in Computer Engineering
 
-
+## Personal Studies and Research Support
+* Analysis of indemnity medical insurance maintenance behavior from a cost-benefit perspective
+> Research Support for HEALTH ECON LAB research during Economics Individual Research 1 course
 
 
 # 4. Achievements and Certifications
