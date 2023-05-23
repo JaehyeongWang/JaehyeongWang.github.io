@@ -1,7 +1,8 @@
 # 1. Introduction
 Hi I'm <u>Jaehyeong</u>, but please call me <u>Jason</u>. \
 I'm going to have two undergraduate degrees, <u>Economis</u> and <u>Software</u>. \
-My hobby is "Subscribe to the New Technology Newsletter", "Playing Flute", "Hiking", "Workout" and "Cycling". \
+I had a 6-month __internship__ experience at a securities firm, obtained several computer and finance-related __licenses__, experienced several economic __societies__, and started a __business__.
+My hobby is "Subscribing to the New Technology Newsletter", "Playing Flute", "Hiking", "Workout" and "Cycling". \
 Thank you for visiting my personal wabsite!
 
 
