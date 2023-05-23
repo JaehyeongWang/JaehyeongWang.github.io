@@ -70,7 +70,7 @@ __Bachelor of Computer Science (scheduled for August 23)__
 * Operating System
 * Programming Languages
 * Machine Learning
-* Robus System Design with Big Data Analytics and Artificial Intelligence
+* Robust System Design with Big Data Analytics and Artificial Intelligence
 * Machine Learning and Deep Learning
 * Seminar in Computer Engineering
 

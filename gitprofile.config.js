@@ -84,6 +84,13 @@ const config = {
       companyLink: '',
     },
     {
+      company: 'Financial Supervisory Service',
+      position: 'Financial Education Volunteer Group',
+      from: 'August 2022',
+      to: 'Present',
+      companyLink: '',
+    },
+    {
       company: 'Sungkyunkwan University 2022 AI Idea Service Contest 1st prize in business idea category',
       position: '"ANVY", Search word recommendation service for developers',
       from: 'December 2022',
@@ -105,6 +112,26 @@ const config = {
       link: ''
     },
     {
+      name: 'Certified Distribution Management Level-II',
+      year: 'July 2019',
+      link: ''
+    },
+    {
+      name: 'Information Technology Qualification',
+      year: 'August 2019',
+      link: ''
+    },
+    {
+      name: 'Craftsman Motor Vehicles Maintenance',
+      year: 'December 2019',
+      link: ''
+    },
+    {
+      name: 'Craftsman Cook, Korean Food',
+      year: 'August 2020',
+      link: ''
+    },
+    {
       name: 'Computer Specialist in Spreadsheet & Database Level-I',
       year: 'May 2022',
       link: ''
@@ -120,38 +147,13 @@ const config = {
       link: ''
     },
     {
-      name: 'Information Technology Qualification',
-      year: 'August 2019',
-      link: ''
-    },
-    {
-      name: 'Craftsman Cook, Korean Food',
-      year: 'August 2020',
-      link: ''
-    },
-    {
-      name: 'Craftsman Motor Vehicles Maintenance',
-      year: 'December 2019',
-      link: ''
-    },
-    {
-      name: 'Certified Distribution Management Level-II',
-      year: 'July 2019',
-      link: ''
-    },
-    {
-      name: 'Certified Distribution Management Level-II',
-      year: 'July 2019',
+      name: 'TEPS 377',
+      year: 'February 2023',
       link: ''
     },
     {
       name: 'OPIc English IM2',
       year: 'March 2023',
-      link: ''
-    },
-    {
-      name: 'TEPs 377',
-      year: 'February 2023',
       link: ''
     },
   ],
@@ -171,6 +173,24 @@ const config = {
     {degree: 'Game Theory and Application'},
     {degree: 'Economics Individual Research 1'},
     {degree: 'Thesis writing in humanities and social sciences using Python'},
+    {degree: 'Data Structures'},
+    {degree: 'Algorithms'},
+    {degree: 'Logic Circuits'},
+    {degree: 'System Program'},
+    {degree: 'Computer Architectures'},
+    {degree: 'Software Engineering'},
+    {degree: 'Computer Networks'},
+    {degree: 'Operating System'},
+    {degree: 'Programming Languages'},
+    {degree: 'Database'},
+    {degree: 'Machine Learning'},
+    {degree: 'Robust System Design with Big Data Analytics and Artificial Intelligence'},
+    {degree: 'Machine Learning and Deep Learning'},
+    {degree: 'Seminar in Computer Engineering'},
+    {degree: 'Artificial Intelligence Project'},
+    {degree: 'Java Programming Practice'},
+    {degree: 'Mobile App Programming Practice'},
+    {degree: 'Open Source Software Practice'},
   ],
 
   // To hide the `My Projects` section, keep it empty.

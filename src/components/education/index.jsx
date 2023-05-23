@@ -42,7 +42,25 @@ const Education = ({ loading, education }) => {
                   skeleton({ width: 'w-32', height: 'h-8' })
                 ) : (
                   <span className="text-base-content opacity-70">
-                    Education: Bachelor of Economics, SungKyunKwan Univ.
+                    Education
+                  </span>
+                )}
+              </h5>
+              <h5 className="card-title">
+                {loading ? (
+                  skeleton({ width: 'w-32', height: 'h-8' })
+                ) : (
+                  <span className="text-base-content opacity-70">
+                    Bachelor of Economics, SungKyunKwan Univ.
+                  </span>
+                )}
+              </h5>
+              <h5 className="card-title">
+                {loading ? (
+                  skeleton({ width: 'w-32', height: 'h-8' })
+                ) : (
+                  <span className="text-base-content opacity-70">
+                    Bachelor of Computer Science, SungKyunKwan Univ.
                   </span>
                 )}
               </h5>
