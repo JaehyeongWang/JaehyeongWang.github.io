@@ -14,7 +14,6 @@ const ListItem = ({ year, name, body, link }) => (
         {name}
       </a>
     </div>
-    <h3 className="mb-4 font-normal">{body}</h3>
   </li>
 );
 
@@ -34,7 +33,6 @@ const Certification = ({ certifications, loading }) => {
             height: 'h-4',
             className: 'my-1.5',
           })}
-          body={skeleton({ width: 'w-6/12', height: 'h-3' })}
         />
       );
     }
@@ -69,7 +67,6 @@ const Certification = ({ certifications, loading }) => {
                         key={index}
                         year={`${certification.year}`}
                         name={certification.name}
-                        body={certification.body}
                         link={certification.link ? certification.link : null}
                       />
                     ))}

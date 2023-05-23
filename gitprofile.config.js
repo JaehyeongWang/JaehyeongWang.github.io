@@ -56,73 +56,86 @@ const config = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: '1st student council, Planning and support for department events, etc.',
+      position: 'Economics Student Council',
+      from: 'March 2018',
+      to: 'February 2019',
+      companyLink: '',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Sergeant, signal man, etc,',
+      position: 'Republic of Korea Army',
+      from: 'January 2019',
+      to: 'September 2020',
+      companyLink: '',
+    },
+    {
+      company: 'Trust asset, mezzanine contract, and credit facility management support by PBS team',
+      position: 'Samsung Securities',
+      from: 'December 2021',
+      to: 'June 2022',
+      companyLink: '',
+    },
+    {
+      company: 'Sungkyunkwan University Convergence Foundation Project 1st Prize',
+      position: '"TrashFree", the New Concept Garbage Collection Service',
+      from: 'June 2022',
+      to: 'August 2022',
+      companyLink: '',
+    },
+    {
+      company: 'Sungkyunkwan University 2022 AI Idea Service Contest 1st prize in business idea category',
+      position: '"ANVY", Search word recommendation service for developers',
+      from: 'December 2022',
+      to: 'January 2023',
+      companyLink: '',
+    },
+    {
+      company: 'CFO, Developer, Advancing various businesses including ANVY',
+      position: '"Kyung Hee University Campus Town',
+      from: 'March 2023',
+      to: 'Present',
+      companyLink: '',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'Word Processor User',
+      year: 'May 2019',
+      link: ''
+    },
+    {
+      name: 'Computer Specialist in Spreadsheet & Database Level-I',
+      year: 'May 2022',
+      link: ''
+    },
+    {
+      name: 'Investment asset manager license',
+      year: 'June 2022',
+      link: ''
+    },
+    {
+      name: 'SQLd',
+      year: 'June 2022',
+      link: ''
     },
   ],
   education: [
-    {degree: 'Principles of Economics I',},
-    {
-      degree: 'Principles of Economics II',
-    },
-    {
-      degree: 'Microeconomics',
-    },
-    {
-      degree: 'Macroeconomics',
-    },
-    {
-      degree: 'Mathematics for Economics',
-    },
-    {
-      degree: 'Econometrics',
-    },
-    {
-      degree: 'Statistical Analysis for Economics',
-    },
-    {
-      degree: 'Economic History',
-    },
-    {
-      degree: 'Introduction to Financial Accounting',
-    },
-    {
-      degree: 'Asset Pricing',
-    },
-    {
-      degree: 'Foreign Exchange Market',
-    },
-    {
-      degree: 'Labor Economics',
-    },
-    {
-      degree: 'Game Theory and Application',
-    },
-    {
-      degree: 'Economics Individual Research 1',
-    },
-    {
-      degree: 'Thesis writing in humanities and social sciences using Python',
-    },
-    
+    {degree: 'Principles of Economics I'},
+    {degree: 'Principles of Economics II'},
+    {degree: 'Microeconomics'},
+    {degree: 'Macroeconomics'},
+    {degree: 'Mathematics for Economics'},
+    {degree: 'Econometrics'},
+    {degree: 'Statistical Analysis for Economics'},
+    {degree: 'Economic History'},
+    {degree: 'Introduction to Financial Accounting'},
+    {degree: 'Asset Pricing'},
+    {degree: 'Foreign Exchange Market'},
+    {degree: 'Labor Economics'},
+    {degree: 'Game Theory and Application'},
+    {degree: 'Economics Individual Research 1'},
+    {degree: 'Thesis writing in humanities and social sciences using Python'},
   ],
 
   // To hide the `My Projects` section, keep it empty.
