@@ -8,7 +8,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      FIB_INPUT: 10
+      FIB_INPUT: 9
     
     steps:
       - uses: actions/checkout@v3
