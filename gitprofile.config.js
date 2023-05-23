@@ -4,7 +4,7 @@ const config = {
   github: {
     username: 'JaehyeongWang', // Your GitHub org/user name. (Required)
     sortBy: 'updated', // stars | updated
-    limit: 6, // How many projects to display.
+    limit: 12, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -92,7 +92,7 @@ const config = {
     },
     {
       company: 'CFO, Developer, Advancing various businesses including ANVY',
-      position: '"Kyung Hee University Campus Town',
+      position: 'Kyung Hee University Campus Town',
       from: 'March 2023',
       to: 'Present',
       companyLink: '',

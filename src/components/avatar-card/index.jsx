@@ -53,10 +53,38 @@ const AvatarCard = ({ profile, loading, avatarRing, resume }) => {
             {loading ? (
               skeleton({ width: 'w-48', height: 'h-5' })
             ) : (<span className="text-base-content opacity-70">
-            Hi I'm <u>Jaehyeong</u>, but please call me <u>Jason</u>. \
-            I'm going to have two undergraduate degrees, <u>Economis</u> and <u>Software</u>. \
-            I had a 6-month __internship__ experience at a securities firm, obtained several computer and finance-related __licenses__, experienced several economic __societies__, and started a __business__. \
-            My hobby is "Subscribing to the New Technology Newsletter", "Playing Flute", "Hiking", "Workout" and "Cycling". \
+            Hi I'm <u>Jaehyeong</u>, but please call me <u>Jason</u>.
+          </span>
+          )}\
+          </div>
+          <div className="mt-3 text-base-content text-opacity-60 font-mono">
+            {loading ? (
+              skeleton({ width: 'w-48', height: 'h-5' })
+            ) : (<span className="text-base-content opacity-70">
+            I'm going to have two undergraduate degrees, <u>Economis</u> and <u>Software</u>.
+          </span>
+          )}\
+          </div>
+          <div className="mt-3 text-base-content text-opacity-60 font-mono">
+            {loading ? (
+              skeleton({ width: 'w-48', height: 'h-5' })
+            ) : (<span className="text-base-content opacity-70">
+            I had a 6-month __internship__ experience at a securities firm, obtained several computer and finance-related __licenses__, experienced several economic __societies__, and started a __business__.
+          </span>
+          )}\
+          </div>
+          <div className="mt-3 text-base-content text-opacity-60 font-mono">
+            {loading ? (
+              skeleton({ width: 'w-48', height: 'h-5' })
+            ) : (<span className="text-base-content opacity-70">
+            My hobby is "Subscribing to the New Technology Newsletter", "Playing Flute", "Hiking", "Workout" and "Cycling".
+          </span>
+          )}\
+          </div>
+          <div className="mt-3 text-base-content text-opacity-60 font-mono">
+            {loading ? (
+              skeleton({ width: 'w-48', height: 'h-5' })
+            ) : (<span className="text-base-content opacity-70">
             Thank you for visiting my personal wabsite!
           </span>
           )}\
